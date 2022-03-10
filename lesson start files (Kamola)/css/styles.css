@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,.li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.nav-link:hover,
+.nav-link-active{
+    background: #dc3545;
+    color: #fff !important;
+}
+.main{
+    height: 100vh;
+    background: url(../images/header_bg.jpg) no-repeat center / cover;
+}
+.pr__text{
+    color: #dc3545;
+}
+.line{
+    width: 135px;
+    height: 2px;
+    background: #d7d7d7;
+    margin: 0 auto
+}
+.item-pr .price{
+    background-color: #ebebeb;
+}
+
+.item-pr {
+    transition: 500ms;
+}
+
+.item-pr:hover {
+    border: 1px solid #dc3545 !important;
+}
+
+.item-pr .price{
+    transition: 500ms;
+}
+.item-pr:hover .price{
+    background: #dc3545;
+    color: #fff;
+}
+
+.card-pr:hover{
+    color: #dc3545;
+}
+@media (max-width:768px){
+    .title-box .text{
+        width: 100% !important;
+    }
+}
+form .emaill{
+    background: darkgray;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid transparent;
+}
+
+form .link{
+    background: #dc3545;
+    border: 1px solid transparent;
+    border-radius: 0 5px 5px 0 ;
+    transition: 500ms
+}
+
+form .link:hover{
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+
+.block .art{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+}
